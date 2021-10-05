@@ -1,5 +1,6 @@
 .lead__image-caption {
-  margin: 0;
+  max-width: 984px;
+  margin: 0 auto;
   font-family: Inter, Arial, sans-serif;
   font-size: 10px;
   font-style: normal;

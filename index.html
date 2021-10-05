@@ -15,12 +15,87 @@
   </ul>
 </header>
 <main>
-  <section class="lead page__lead">
+  <section class="lead page__block">
     <h1 class="lead__title">Путешествия по России</h1>
     <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-    <img class="lead__image" src="images/lead-polka.jpg" alt="Железнодорожный маршрут из Пскова в Улан-Удэ">
-    <p class="lead__image-caption">ваша полка — верхняя</p>
+    <figure>
+      <img class="lead__image" src="images/lead-polka.jpg" alt="Железнодорожный маршрут из Пскова в Улан-Удэ">
+      <figcaption class="lead__image-caption">ваша полка — верхняя</figcaption>
+    </figure>
+  </section>
+  <article class="intro page__block">
+    <h2 class="intro__title">Чего мы там не видели?</h2>
+    <p class="intro__text">
+      По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести
+      отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым
+      морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов
+      на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая
+      взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и
+      описали некоторые интересные места, достойные вашего отпуска.
+    </p>
+    <ul class="intro__list">
+      <li class="intro__list-item"><span class="intro__bold-text">Часовых поясов</span> 11</li>
+      <li class="intro__list-item"><span class="intro__bold-text">Объектов природного наследия ЮНЕСКО</span> 12</li>
+      <li class="intro__list-item"><span class="intro__bold-text">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+      <li class="intro__list-item"><span class="intro__bold-text">Природных заповедников</span> 105</li>
+      <li class="intro__list-item"><span class="intro__bold-text">Аэропортов</span> 241</li>
+    </ul>
+  </article>
+  <section class="photos page__block">
+    <img class="photos__item" src="./images/photo-grid-train.jpg" alt="Окно поезда">
+    <img class="photos__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Атхарва Тулси">
+    <img class="photos__item" src="./images/photo-grid-tuman.jpg" alt="Собака на стоге сена">
+    <img class="photos__item" src="./images/photo-grid-sochi.jpg" alt="Сочи - горы и лес">
+    <img class="photos__item" src="./images/photo-grid-arisa.jpg" alt="Автомобиль на льду">
+    <img class="photos__item" src="./images/photo-grid-baikal.jpg" alt="Берег Байкала">
+    <img class="photos__item" src="./images/photo-grid-elbrus.jpg" alt="Вершины Эльбруса">
+    <img class="photos__item" src="./images/photo-grid-kondratiev.jpg" alt="Пешеходный переход">
+    <img class="photos__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
+    <img class="photos__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Вулкан на Камчатке">
+    <img class="photos__item" src="./images/photo-grid-baikal-2.jpg" alt="Скалистый берег Байкала">
+    <img class="photos__item" src="./images/photo-grid-ergaki.jpg" alt="Туман в горах Ергаки">
+  </section>
+  <section class="places page__block">
+    <article class="place">
+      <h2 class="place__title">Куршская коса</h2>
+      <ul class="place__website">
+        <li><span class="place__url-heading">Url</span></li>
+        <li><a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a></li>
+      </ul>
+      <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
+      <div>
+        <p class="place__paragraph">
+          Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с
+          одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского
+          анклава.
+        </p>
+        <p class="place__paragraph">
+          На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству —
+          самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов.
+          Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
+        </p>
+      </div>
+    </article>
+  </section>
+  <section class="cover page__block">
+    <h2 class="cover__title">До Байкала «на собаках»</h2>
+    <p class="cover__subtitle">
+      По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+    </p>
+    <div class="cover__overlay"></div>
   </section>
 </main>
+  <footer class="footer page__footer">
+    <nav>
+      <ul class="footer__links">
+        <li class="footer__links-item"><a class="footer__link" href="">Карты</a></li>
+        <li class="footer__links-item"><a class="footer__link" href="">Погода</a></li>
+        <li class="footer__links-item"><a class="footer__link" href="">Расписание</a></li>
+        <li class="footer__links-item"><a class="footer__link" href="">Календарь</a></li>
+        <li class="footer__links-item"><a class="footer__link" href="">Путешествия</a></li>
+      </ul>
+    </nav>
+    <span class="footer__copyright">&copy; 2021. Сергей Воробьёв</span>
+  </footer>
 </body>
 </html>
