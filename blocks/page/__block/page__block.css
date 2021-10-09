@@ -1,3 +1,15 @@
 .page__block {
   margin: 0 auto 92px;
 }
+
+@media screen and (max-width: 1023px) {
+  .page__block {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__block {
+    margin-bottom: 64px;
+  }
+}

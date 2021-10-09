@@ -6,7 +6,15 @@
   font-size: 96px;
   font-style: normal;
   font-weight: 900;
-  line-height: 100px;
-  letter-spacing: 0em;
+  line-height: 1.04;
   text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
 }
